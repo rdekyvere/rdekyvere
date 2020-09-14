@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+           display: grid;
+           grid-template-columns: minmax(350px, 1140px);
+           justify-content: center;
+           background-color: blue;
+        }
+        section{
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            background-color: aqua;
+        }
+        section div:first-child{
+            background-color: yellow;
+        }
+        section div:last-child{
+            background-color: greenyellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div>Heilbron is een financieel dienstverlener op
+                zowel particulier als zakelijk gebied met jaren
+                ervaring en een team van meer dan 750
+                specialisten op 7 locaties.
+             </div>
+    
+            <div>
+                <h3>De uitdaging/doelstelling</h3>
+                <p>De oude Heilbron website, gebouwd met een
+                    maatwerk cms met beperkte mogelijkheden, werd
+                    ontwikkeld door een extern bureau.</p>
+                <p>De nieuwe website moet in-house worden ontwikkelt
+                    en gemakkelijk kunnen beheert en uitgebreid
+                    worden door de introductie van het WordPress platform.</p>
+            </div>
+        </section>
+        <section>
+            <div>section2 linkerkolom</div>
+            <div>section2 rechterkolom</div>
+        </section>
+    </div>
+    
+</body>
+</html>
