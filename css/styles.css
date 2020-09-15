@@ -34,6 +34,9 @@ section div {
   section div:last-child {
     margin-top: 30px;
   }
+  section div h3 {
+    text-align: center;
+  }
 }
 
 header {
@@ -329,6 +332,12 @@ header {
   }
 }
 
+@media screen and (max-width: 31em) {
+  .lists {
+    padding-left: 0;
+  }
+}
+
 .lists ul {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -348,6 +357,12 @@ header {
 @media screen and (max-width: 48em) {
   .lists ul li {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 31em) {
+  .lists ul li {
+    text-align: center;
   }
 }
 
@@ -394,7 +409,7 @@ header {
     height: 420px !important;
   }
   .csvi5 section div:first-child {
-    margin-top: 65px !important;
+    margin-top: 70px !important;
     margin-left: 0 !important;
   }
 }
