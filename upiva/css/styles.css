@@ -160,6 +160,9 @@ section.yellow img {
     .mywork .ml30{
         margin-left: 0;
     }
+    .beforeafter .mr30{
+        margin-right: 0;
+    }
 }
 .results li{
     line-height: 36px;
