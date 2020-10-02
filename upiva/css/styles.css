@@ -150,6 +150,13 @@ section.yellow div {
 section.yellow img {
     margin-top: -101px;
 }
+.results li{
+    line-height: 36px;
+    text-align: left;
+}
+.results .special{
+    font-size: 36px;
+}
 @media screen and (max-width: 48em) {
     section.yellow {
         height: 180px;
@@ -163,11 +170,16 @@ section.yellow img {
     .beforeafter .mr30{
         margin-right: 0;
     }
-}
-.results li{
-    line-height: 36px;
-    text-align: left;
-}
-.results .special{
-    font-size: 36px;
+    .mywork  .ml40{
+        margin-left: 0;
+    } 
+    .mywork ul{
+        margin-top: 30px;
+    }
+    .results .mt50{
+        margin-top:0;
+    }
+    .results li{
+        line-height: inherit;
+    }
 }
