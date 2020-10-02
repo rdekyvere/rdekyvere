@@ -1,0 +1,170 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+}
+
+header {
+    background-color: #BBBBBB;
+}
+/*
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+*/
+h5 {
+    font-weight: normal;
+    line-height: 34px;
+}
+
+.blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    color: #FFFFFF;
+}
+
+.logo {
+    background-color: #FFFFFF;
+}
+
+.fourblocks {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.toprow {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-gap: 20px;
+}
+
+.bottomrow {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 310px;
+    grid-gap: 20px;
+}
+
+.whiteblock {
+    background-color: #FFFFFF;
+}
+
+.yellow {
+    background-color: #CBDB2A;
+}
+
+.platform {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.platform img {
+    vertical-align: middle;
+}
+
+.platform p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.platform div {
+    border-left: 1px solid #F2F2F2;
+    padding-left: 10px;
+    height: 145px;
+}
+
+.platform div:first-child li {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.platform div:last-child {
+    margin-left: 30px;
+    height: 185px;
+}
+@media screen and (max-width: 48em) {
+    .blocks {
+        display: block;
+    }
+    .fourblocks {
+        display: block;
+    }
+    .toprow {
+        display: block;
+    }
+    .bottomrow {
+        display: block;
+    }
+    .explainer .col-6.col-offset-2{
+        margin-left: 0;
+    }
+    .beforeafter .last{
+        margin-left: 0;
+    }
+    .platform {
+        display: block;
+    }
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.logooutline {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+img{
+    max-width: 100%;
+}
+.userflows .col-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section{
+    background-color: #e4e4e4;
+    text-align: center;
+}
+section .text{
+    text-align: left;
+}
+.nobg{
+    background-color: inherit;
+}
+section.yellow {
+   height: 640px;
+}
+section.yellow div {
+    text-align: right;
+}
+section.yellow img {
+    margin-top: -101px;
+}
+@media screen and (max-width: 48em) {
+    section.yellow {
+        height: 180px;
+    }
+    section.yellow img {
+        margin-top: -49px;
+    }
+    .mywork .ml30{
+        margin-left: 0;
+    }
+}
+.results li{
+    line-height: 36px;
+    text-align: left;
+}
+.results .special{
+    font-size: 36px;
+}
